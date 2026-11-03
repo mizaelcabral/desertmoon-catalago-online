@@ -50,19 +50,19 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6 sm:gap-8 items-start">
             
             {/* Left: Product Image on Cosmic Pedestal */}
-            <div className="md:col-span-5 bg-gradient-to-b from-[#1b0d36] to-[#0c031a] rounded-2xl p-5 flex flex-col items-center justify-center border border-purple-900/40">
-              <div className="relative aspect-square w-full max-w-[200px] sm:max-w-[260px] flex items-center justify-center">
+            <div className="md:col-span-5 bg-[#160b29] rounded-2xl overflow-hidden flex flex-col items-center border border-purple-900/40">
+              <div className="relative aspect-[658/474] w-full flex items-center justify-center overflow-hidden">
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="max-h-full max-w-full object-contain filter drop-shadow-2xl"
+                  className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
               </div>
 
               <button
                 onClick={() => onOpenPdfPage(product.pdfPage)}
-                className="mt-3.5 text-xs text-purple-300 hover:text-white flex items-center gap-1.5 underline decoration-purple-500 underline-offset-4 cursor-pointer"
+                className="my-3 text-xs text-purple-300 hover:text-white flex items-center gap-1.5 underline decoration-purple-500 underline-offset-4 cursor-pointer"
               >
                 <span>Ver página {product.pdfPage} original do PDF</span>
                 <ExternalLink className="w-3.5 h-3.5 shrink-0" />

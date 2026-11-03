@@ -119,25 +119,25 @@ export const ProductsSection: React.FC<ProductsSectionProps> = ({
               {/* Product Visual Container (Hero shot of the product from the catalog) */}
               <div 
                 onClick={() => onSelectProduct(product)}
-                className="relative aspect-[4/3] bg-gradient-to-b from-[#1b0d36] to-[#0d041c] p-5 sm:p-6 flex items-center justify-center cursor-pointer overflow-hidden"
+                className="relative aspect-[658/474] w-full bg-[#160b29] flex items-center justify-center cursor-pointer overflow-hidden"
               >
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="max-h-full max-w-full object-contain filter drop-shadow-2xl group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
                 
                 {/* Spectrum Tag */}
-                <div className="absolute top-3 left-3">
-                  <span className="px-2.5 py-1 rounded-md text-[10px] sm:text-[11px] font-semibold tracking-wide bg-purple-900/90 text-purple-200 border border-purple-700/60 backdrop-blur-sm shadow-sm">
+                <div className="absolute top-3 left-3 z-10">
+                  <span className="px-2.5 py-1 rounded-md text-[10px] sm:text-[11px] font-semibold tracking-wide bg-purple-950/85 text-purple-200 border border-purple-700/60 backdrop-blur-md shadow-sm">
                     {product.spectrum}
                   </span>
                 </div>
 
                 {/* PDF Page Ref */}
-                <div className="absolute top-3 right-3">
-                  <span className="text-[10px] sm:text-[11px] font-mono text-purple-300/90 bg-purple-950/80 px-2 py-0.5 rounded border border-purple-800/50">
+                <div className="absolute top-3 right-3 z-10">
+                  <span className="text-[10px] sm:text-[11px] font-mono text-purple-200/90 bg-purple-950/85 px-2 py-0.5 rounded border border-purple-700/50 backdrop-blur-md shadow-sm">
                     Página {String(product.pdfPage).padStart(2, '0')}
                   </span>
                 </div>
