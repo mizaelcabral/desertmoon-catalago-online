@@ -38,9 +38,9 @@ export const EndocannabinoidSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-stretch">
           
           {/* Left: Brain Cellular Communication Card */}
-          <div className="lg:col-span-4 bg-gradient-to-br from-purple-50 via-indigo-50/40 to-purple-50/60 p-5 sm:p-6 rounded-2xl border border-purple-100 flex flex-col justify-between text-center sm:text-left">
+          <div className="lg:col-span-4 bg-gradient-to-br from-purple-50 via-indigo-50/40 to-purple-50/60 p-3 sm:p-4 rounded-2xl border border-purple-100 flex flex-col justify-between text-center sm:text-left">
             <div>
-              <div className="w-full aspect-square max-w-[220px] mx-auto rounded-xl overflow-hidden mb-4 flex items-center justify-center bg-white shadow-sm border border-purple-100 p-2">
+              <div className="w-full aspect-square rounded-xl overflow-hidden mb-4 flex items-center justify-center bg-white shadow-sm border border-purple-100 p-1">
                 <img
                   src="/extracted/brain_ecs.png"
                   alt="Comunicação Celular e Cérebro"
@@ -48,15 +48,17 @@ export const EndocannabinoidSection: React.FC = () => {
                   referrerPolicy="no-referrer"
                 />
               </div>
-              <span className="text-xs font-mono font-bold text-purple-900 uppercase tracking-wider block text-center">
-                Comunicação Celular & Homeostase
-              </span>
-              <p className="text-xs sm:text-sm text-slate-600 mt-2.5 leading-relaxed text-center sm:text-left">
-                A interação dos canabinoides com os receptores apoia o corpo em diferentes respostas fisiológicas, auxiliando na regulação de sono, dor, imunidade, apetite e funções cardiovasculares.
-              </p>
+              <div className="px-2">
+                <span className="text-xs font-mono font-bold text-purple-900 uppercase tracking-wider block text-center">
+                  Comunicação Celular & Homeostase
+                </span>
+                <p className="text-xs sm:text-sm text-slate-600 mt-2.5 leading-relaxed text-center sm:text-left">
+                  A interação dos canabinoides com os receptores apoia o corpo em diferentes respostas fisiológicas, auxiliando na regulação de sono, dor, imunidade, apetite e funções cardiovasculares.
+                </p>
+              </div>
             </div>
 
-            <div className="mt-4 pt-3 border-t border-purple-200/60 text-[11px] font-mono text-purple-800 text-center">
+            <div className="mt-4 pt-3 border-t border-purple-200/60 text-[11px] font-mono text-purple-800 text-center px-1">
               Endocanabinoides Corporais: AEA (Anandamida) e 2-AG
             </div>
           </div>
