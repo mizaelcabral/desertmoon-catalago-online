@@ -1,0 +1,6 @@
+{
+  "name": "Desert Moon CBD - Catálogo Oficial de Cannabis Medicinal",
+  "description": "Catálogo online da Desert Moon CBD. Ciência, cuidado e bem-estar em canabinoides medicinais importados dos EUA de acordo com a RDC 660/2022 da ANVISA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
