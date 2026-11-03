@@ -192,7 +192,7 @@ export const ImportGuideSection: React.FC = () => {
               className="w-full sm:w-auto px-5 py-3 bg-purple-600 hover:bg-purple-500 active:bg-purple-700 text-white font-semibold text-xs rounded-xl transition-colors flex items-center justify-center gap-2 shrink-0 cursor-pointer min-h-[44px]"
             >
               <Phone className="w-4 h-4 shrink-0" />
-              <span>WhatsApp Acolhimento: (21) 97451-5068</span>
+              <span>Acolhimento WhatsApp</span>
             </a>
           </div>
 

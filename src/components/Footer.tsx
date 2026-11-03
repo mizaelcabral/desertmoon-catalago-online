@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
               className="w-full sm:w-auto px-6 py-3 rounded-xl bg-purple-600 hover:bg-purple-500 active:bg-purple-700 text-white font-semibold text-xs tracking-wide transition-colors flex items-center justify-center gap-2 shadow-lg shadow-purple-950 cursor-pointer min-h-[44px]"
             >
               <Phone className="w-4 h-4 shrink-0" />
-              <span>Acolhimento WhatsApp: +55 (21) 97451-5068</span>
+              <span>Acolhimento WhatsApp</span>
             </a>
           </div>
 
